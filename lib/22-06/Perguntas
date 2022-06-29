@@ -1,0 +1,9 @@
+
+1)Para atribuir um valor em um atributo, qual a diferença em: (i) atribuir um valor no atributo na  definição da classe; e (ii) solicitar o seu valor via parâmetro do construtor?
+Atribuir um valor no atributo na definição da classe gera um valor fixo, já solicitar o valor via parâmetro do construtor, permite que seja informado qualquer valor após a execução.
+
+2)O que é para que ser construtor? Qual código pode-se definir nele?
+O construtor é uma subrotina chamada para criar um objeto. Dentro do construtor podemos definir códigos de validação, processamento, ordem de execução e concorrência.
+
+3)Para que serve "final"? Em que caso utilizamos? Para coletar dados, qual a vantagem e desvantagem?
+O "final" serve para impedir que os métodos sejam sobrescritos na subclasse. Nós utilizamos ele quando desejamos não extender a classe. A vantagem é que o "final" permite que se caso o usuário não saiba o valor da variável, ele possa estar inserindo futuramente, porém a desvantagem é que após informar o valor para a variável, o seu valor não poderá ser alterado.
